@@ -1,11 +1,11 @@
 use crate::part1::Direction::{AntiClockwise, Clockwise};
 use std::str::FromStr;
 
-const UPPER_LIMIT: i32 = 100;
-const START_POSITION: i32 = 50;
+pub(crate) const UPPER_LIMIT: i32 = 100;
+pub(crate) const START_POSITION: i32 = 50;
 
 #[derive(Debug)]
-pub(self) enum Direction {
+pub(crate) enum Direction {
     Clockwise(i32),
     AntiClockwise(i32),
 }
@@ -33,7 +33,7 @@ impl FromStr for Direction {
 }
 
 #[tracing::instrument]
-fn parse(input: &str) -> Result<Vec<Direction>, ()> {
+pub(crate) fn parse(input: &str) -> Result<Vec<Direction>, ()> {
     let parsed_values = input
         .lines()
         .map(|line| line.parse::<Direction>().unwrap())

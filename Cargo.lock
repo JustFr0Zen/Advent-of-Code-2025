@@ -108,6 +108,7 @@ dependencies = [
  "itertools",
  "miette",
  "nom",
+ "parse",
  "rstest",
  "test-log",
  "tracing",
@@ -363,6 +364,12 @@ name = "owo-colors"
 version = "4.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c6901729fa79e91a0913333229e9ca5dc725089d1c363b2f4b4760709dc4a52"
+
+[[package]]
+name = "parse"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "47351ddb9a500ad0b31aa5731980f2678886e44e96a5e3e0d837c5062a151239"
 
 [[package]]
 name = "pin-project-lite"
