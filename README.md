@@ -15,6 +15,7 @@ This setup is based on:
 ## Installation Guide
 
 ```bash
+./.scripts/load-aoc-cookie.sh
 ./.scripts/add-day-project.sh generate --path ./.daily_template --name day_{{day}}
 ./.scripts/get-aoc-input.sh
 
