@@ -63,4 +63,4 @@ DAY_NUMBER=$((10#$DAY))
 # Format day with leading zero for directory name (day_01, day_02, etc.)
 DAY_DIR=$(printf "day_%02d" "$DAY_NUMBER")
 
-cargo generate --path "${CWD}/00_daily_template" --name "${DAY_DIR}"
+cargo generate --path "${CWD}/.daily_template" --name "${DAY_DIR}"
