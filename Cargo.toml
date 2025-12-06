@@ -1,9 +1,7 @@
 [workspace]
 members = [
-    "day-*",
     "day_01",
 ]
-default-members = ["day-*"]
 resolver = "3"
 
 [workspace.dependencies]
