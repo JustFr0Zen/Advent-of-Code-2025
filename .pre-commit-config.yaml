@@ -6,3 +6,4 @@ repos:
         args:
           - --auto-add-tiles-to-git=amend
           - --contrast-improvement-type=dark
+          - --overwrite-year=2025
