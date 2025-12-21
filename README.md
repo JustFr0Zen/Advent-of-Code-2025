@@ -2,10 +2,13 @@
 
 <!-- AOC TILES BEGIN -->
 <h1 align="center">
-  2025 - 2 ⭐ - Rust
+  2025 - 3 ⭐ - Rust
 </h1>
 <a href=".daily_template/src/bin/part1.rs">
   <img src=".aoc_tiles/tiles/2025/01.png" width="161px">
+</a>
+<a href=".daily_template/src/bin/part2.rs">
+  <img src=".aoc_tiles/tiles/2025/02.png" width="161px">
 </a>
 <!-- AOC TILES END -->
 
